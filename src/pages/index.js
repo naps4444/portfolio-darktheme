@@ -1,11 +1,11 @@
 import Image from 'next/image';
-import Navbar from './Navbar';
+
 import HeroSection from './Hero';
 import AboutMe from '../component/AboutMe';
 import Works from '../component/Works';
 import ParallaxText from '@/component/ParallaxText';
 import Contact from '@/component/Contact';
-import Footer from './Footer';
+
 
 
 export default function Home() {
@@ -15,7 +15,7 @@ export default function Home() {
     <>
       <div className=''>
 
-        <Navbar/>
+     
         <HeroSection/>
         <section className='2xl:container mx-auto bg-[#E0E0E0] pb-2 pt-2'>
       <ParallaxText baseVelocity={-5}>Option  Full</ParallaxText>
@@ -24,7 +24,7 @@ export default function Home() {
         <AboutMe/>
         <Works/>
         <Contact/>
-        <Footer/>
+    
         
 
        

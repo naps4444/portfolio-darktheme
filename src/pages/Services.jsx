@@ -1,5 +1,4 @@
 import React from "react";
-import Footer from "./Footer";
 import {
   FiMonitor,
   FiBarChart2,
@@ -8,7 +7,6 @@ import {
   FiPenTool,
   FiCpu,
 } from "react-icons/fi";
-import Navbar from "./Navbar";
 import { Sigmar_One } from "next/font/google";
 import { Quicksand } from "next/font/google";
 
@@ -122,7 +120,7 @@ const Services = () => {
 
   return (
     <>
-      <Navbar />
+     
 
       <div className="2xl:container mx-auto bg-[#222831] text-[#EEEEEEBF] px-4 py-10 flex flex-col items-center">
 
@@ -193,7 +191,7 @@ const Services = () => {
         </div>
       </div>
 
-      <Footer />
+  
     </>
   );
 };

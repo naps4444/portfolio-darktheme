@@ -1,7 +1,5 @@
 import React from "react";
 import { FiBarChart2 } from "react-icons/fi";
-import Footer from "./Footer";
-import Navbar from "./Navbar";
 import { Sigmar_One, Quicksand } from "next/font/google";
 
 // Load the Google Fonts
@@ -29,7 +27,7 @@ const AboutUs = () => {
 
   return (
     <>
-      <Navbar />
+
 
       <div className="min-h-screen bg-[#222831] text-[#EEEEEEBF] flex flex-col items-center px-4 py-10 2xl:container mx-auto">
         
@@ -80,8 +78,7 @@ const AboutUs = () => {
           </div>
         </div>
 
-        {/* Footer */}
-        <Footer />
+  
       </div>
     </>
   );

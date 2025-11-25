@@ -21,7 +21,7 @@ const Works = () => {
         "https://res.cloudinary.com/dpm3yp0xs/image/upload/v1759428368/Untitled_design_1_srjqmc.svg",
       description:
         "Salon booking website where clients can easily schedule appointments online.",
-      link: "https://veemadesaloon.com",
+      link: "https://veemadesalon.com",
     },
     {
       title: "Toetally",
