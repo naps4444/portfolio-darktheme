@@ -13,7 +13,7 @@
     "@motionone/utils": "^10.18.0",
     "framer-motion": "^12.23.22",
     "lucide-react": "^0.544.0",
-    "next": "15.1.6",
+    "next": "15.1.11",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-hook-form": "^7.64.0",
