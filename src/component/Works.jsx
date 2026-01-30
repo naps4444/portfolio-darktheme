@@ -23,6 +23,15 @@ const Works = () => {
         "Salon booking website where clients can easily schedule appointments online.",
       link: "https://veemadesalon.com",
     },
+
+    {
+  title: "Chicks N Bags",
+  image:
+    "https://res.cloudinary.com/dpm3yp0xs/image/upload/v1769754950/Untitled_design_5_whhbjp.svg",
+  description:
+    "A fashion retail platform built with TypeScript, focused on performance, scalability, and responsive product browsing.",
+  link: "https://www.chicksnbags.com",
+},
     {
       title: "Toetally",
       image:
@@ -31,6 +40,7 @@ const Works = () => {
         "An e-commerce store where customers shop stylish and affordable footwear.",
       link: "https://toe-tally-frontend-lzmv.vercel.app",
     },
+    
   ];
 
   return (
