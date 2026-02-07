@@ -24,7 +24,6 @@ const HeroSection = () => {
   )}`;
 
   const handleHireClick = () => {
-    // animation only (navigation handled by <a>)
     setAnimateButton(false);
     requestAnimationFrame(() => setAnimateButton(true));
   };
@@ -41,8 +40,9 @@ const HeroSection = () => {
   return (
     <div className="bg-[#222831] 2xl:container mx-auto py-10">
       <div className="w-11/12 mx-auto grid grid-cols-1 md:grid-cols-2 items-center justify-between gap-6">
+        
         {/* Left content */}
-        <div className="relative px-4 ml-6 mt-12 text-center md:text-left">
+        <div className="relative z-30 px-4 ml-6 mt-12 text-center md:text-left">
           <Image
             src="https://res.cloudinary.com/dpm3yp0xs/image/upload/v1758455328/Untitled_design_9_xl7zfc.svg"
             alt="Hero decoration"
@@ -82,7 +82,7 @@ const HeroSection = () => {
         </div>
 
         {/* Right content */}
-        <div className="relative mx-auto -mt-20 md:mt-0 lg:ml-36">
+        <div className="relative z-10 pointer-events-none md:pointer-events-auto mx-auto -mt-20 md:mt-0 lg:ml-36">
           <Image
             src="https://res.cloudinary.com/dpm3yp0xs/image/upload/v1758454479/Untitled_design_7_x6vcw5.svg"
             alt="developer sitting and working"
